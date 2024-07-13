@@ -34,7 +34,7 @@ class TestController extends Controller
             ]);
         }
 
-        return url('/list');
+        return redirect('/list');
     }
 
     public function viewList(Request $request){
